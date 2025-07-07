@@ -20,10 +20,9 @@ const app = Vue.createApp({
         clearFields() {
             this.firstName= '';
             this.lastName = '';
-            this.quantity = 0;
-            this.pricePerItem =10
+            this.quantity = 0
         }
     }
-}
+} 
 );
 app.mount('#app');
